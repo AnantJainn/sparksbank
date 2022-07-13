@@ -1,0 +1,37 @@
+*{
+	padding: 10;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: rgba(12, 145, 160, 0.777);
+}
+
+h2{
+	font-size: 40px;
+}
+
+table{
+	letter-spacing: 1.2px;
+	color: red;
+	background-color: rgba(12, 145, 160, 0.777);
+
+}
+tr{
+	background-color: rgba(12, 145, 160, 0.777);
+
+}
+
+td{
+	text-align: center;
+	background-color: rgba(12, 145, 160, 0.777);
+}
+
+button{
+	border:none;
+	background: #d9d9d9;
+}
+
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
